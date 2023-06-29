@@ -1,6 +1,8 @@
 version: '3'
 services:
   webappbot:
+    environment: 
+      - TOKEN=${AGRIWEATHBOT_TOKEN}
     build:
       dockerfile: dockerfile
       context: .

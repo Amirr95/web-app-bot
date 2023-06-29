@@ -35,7 +35,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 PROXY = "http://127.0.0.1:8889"
-TOKEN = os.environ["AGRIWEATHBOT_TOKEN"]
+TOKEN = os.environ["TOKEN"]
 
 # Define a `/start` command handler.
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
