@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-app-telegram"
+version = "0.1.0"
+description = ""
+authors = ["Amirr95 <arrezvaniyan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_app_telegram"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

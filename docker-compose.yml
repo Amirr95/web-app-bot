@@ -1,0 +1,9 @@
+version: '3'
+services:
+  webappbot:
+    build:
+      dockerfile: dockerfile
+      context: .
+    volumes:
+      - .:/webapp
+    command: python3 -u webappbot.py
